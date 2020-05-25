@@ -13,7 +13,6 @@ services:
             - .:/usr/src
             - /usr/src/node_modules
 
-
     redis:
         image: redis
 
