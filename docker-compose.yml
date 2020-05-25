@@ -7,11 +7,10 @@ services:
             REDIS_URL: ""
         depends_on: 
             - redis
-        volumes: 
 
 
     redis:
         image: redis
 
-    rabbitmq:
-        image: rabbitmq
+    # rabbitmq:
+    #    image: 
